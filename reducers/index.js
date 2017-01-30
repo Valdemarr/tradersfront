@@ -1,11 +1,11 @@
 import CounterReducer from './counter'
-import JobsReducer from './jobs'
+import StocksReducer from './stocks'
 
 import { combineReducers } from 'redux'
 
 const reducers = combineReducers({
     counter: CounterReducer,
-    jobs: JobsReducer
+    stocks: StocksReducer
 });
 
 export default reducers;

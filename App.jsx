@@ -1,11 +1,11 @@
 import React from 'react';
 import Counter from './pages/counter.js'
-import Jobs from './pages/jobs'
+import Stocks from './pages/stocks'
 
 class App extends React.Component {
    render() {
       return (
-         <Jobs />
+         <Stocks />
       );
    }
 }
